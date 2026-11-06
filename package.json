@@ -1,0 +1,27 @@
+{
+  "name": "fivem-dumper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pulls the client-side resource package off a live FXServer and unpacks it (RPF2) to disk.",
+  "author": "Mohammed <https://discord.gg/6G6m74Ynbw>",
+  "homepage": "https://discord.gg/6G6m74Ynbw",
+  "type": "module",
+  "bin": {
+    "fivem-dumper": "./src/cli.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node ./src/wizard.js",
+    "cli": "node ./src/cli.js"
+  },
+  "keywords": [
+    "fivem",
+    "fxserver",
+    "rpf2",
+    "resource",
+    "dumper"
+  ],
+  "license": "SEE LICENSE IN LICENSE"
+}
